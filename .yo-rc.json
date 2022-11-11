@@ -1,0 +1,16 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "version": "1.15.2",
+    "libraryName": "boottable",
+    "libraryId": "5f3672dd-bc92-4179-8c87-654085386e03",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "boottable",
+    "solutionShortDescription": "boottable description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

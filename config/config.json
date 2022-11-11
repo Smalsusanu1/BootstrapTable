@@ -1,0 +1,27 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "boottable-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/boottable/BoottableWebPart.js",
+          "manifest": "./src/webparts/boottable/BoottableWebPart.manifest.json"
+        }
+      ]
+    },
+    "bootstrap-table-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bootstrapTable/BootstrapTableWebPart.js",
+          "manifest": "./src/webparts/bootstrapTable/BootstrapTableWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BoottableWebPartStrings": "lib/webparts/boottable/loc/{locale}.js",
+    "BootstrapTableWebPartStrings": "lib/webparts/bootstrapTable/loc/{locale}.js"
+  }
+}
